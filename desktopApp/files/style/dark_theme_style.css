@@ -1,0 +1,94 @@
+#my_window {
+     background-color: rgb(16, 16, 43);
+     color: white;
+}
+
+/* all buttons in this application */
+#start_screen_help_bt_label, #install_bt, 
+#insta_config_help_bt_label, #go_back_one_bt, #save_info_bt, #password_show_one, #password_show_two, #create_random_password, 
+#help_garage_control, #program_install_next,
+#server_search_hostname_bt, #save_info_bt,
+#connect_server_help_bt_label, #server_search_hostname_bt, #save_info_add_bt,
+#super_user_access_help_bt, #bt_show_passwd_super_user, #super_user_save_bt,
+#window_theme_color_help_bt_label, #theme_color_next_bt,
+#final_config_help_bt_label, #change_user_name_bt, #change_password_bt, #show_user_password_c_bt, #final_config_back_bt, #final_config_next_bt,
+#add_garage_help_bt_label, #load_from_server_bt, #add_garage_bt, #remove_garage_bt, #save_all_new_garages_bt, #add_garage_next_bt,
+#exit_config_help_bt_label, #finish_config,
+#yes_bt, #cancle_bt,
+#ok_bt_install_failed,
+#show_password_create_acc, #show_password_b_create_acc, #save_nppr,
+#search_for_ip_bt_add_garage, #save_new_garage_bt_add_garage,
+#sorry_name_ip_garage_is_given_ok_bt,
+#remove_garage_accept_bt,
+#yes_exit_bt, #cancel_exit_bt,
+#show_pass_a_final_bt, #show_pass_b_final_bt, #save_changes_password_f, 
+#save_changes_user_name_f,
+#stsh_exit_bt
+{
+     border: none;
+     background: rgb(74, 74, 92);
+     padding: 8px;
+}
+
+#start_screen_help_bt_label:hover, #install_bt:hover,
+#insta_config_help_bt_label:hover, #go_back_one_bt:hover, #save_info_bt:hover, #password_show_one:hover, #password_show_two:hover, #create_random_password:hover, 
+#help_garage_control:hover, #program_install_next:hover, 
+#connect_server_help_bt_label:hover, #server_search_hostname_bt:hover, #save_info_add_bt:hover,
+#super_user_access_help_bt:hover, #bt_show_passwd_super_user:hover, #super_user_save_bt:hover,
+#window_theme_color_help_bt_label:hover, #theme_color_next_bt:hover,
+#final_config_help_bt_label:hover, #change_user_name_bt:hover, #change_password_bt:hover, #show_user_password_c_bt:hover, #final_config_back_bt:hover, #final_config_next_bt:hover,
+#add_garage_help_bt_label:hover, #load_from_server_bt:hover, #add_garage_bt:hover, #remove_garage_bt:hover, #save_all_new_garages_bt:hover, #add_garage_next_bt:hover,
+#exit_config_help_bt_label:hover, #finish_config:hover,
+#yes_bt:hover, #cancle_bt:hover,
+#ok_bt_install_failed:hover,
+#show_password_create_acc:hover, #show_password_b_create_acc:hover, #save_nppr:hover,
+#search_for_ip_bt_add_garage:hover, #save_new_garage_bt_add_garage:hover,
+#sorry_name_ip_garage_is_given_ok_bt:hover,
+#remove_garage_accept_bt:hover,
+#yes_exit_bt:hover, #cancel_exit_bt:hover,
+#show_pass_a_final_bt:hover, #show_pass_b_final_bt:hover, #save_changes_password_f:hover, 
+#save_changes_user_name_f:hover,
+#stsh_exit_bt:hover
+{ 
+     background: rgb(47, 52, 68);
+}
+
+#name_entry, #password_entry, #re_password_entry,
+#server_add_entry, #server_name_entry,
+#entry_super_user_name, #entry_super_user_password,
+#entry_name_create_acc, #entry_password_create_acc,
+#entry_ip_garage_add_garage, #entry_name_garage_add_garage, #entry_password_retype_create_acc,
+#remove_garage_name_entry,
+#entry_password_final, #re_entry_password_final_ch,
+#entry_user_name_final 
+{
+     border-radius: 4px;
+     border: none;
+     border-bottom: 2px solid rgb(134, 134, 134);
+     padding: 4px;
+     background: white;
+     color: black;
+}
+
+/* start screen */
+#hello_label { padding: 120px 160px; }
+/* ----------------------------------------------- */
+
+/* insta config */
+#config_label { padding: 15px; }
+/* ----------------------------------------------- */
+
+/* what_to_install */
+#garage_control, #garage_opener {
+     color: black;
+     padding: 8px;
+}
+#program_install_next {
+     padding-left: 20px;
+     padding-right: 20px;
+}
+/* ----------------------------------------------- */
+
+/* connect_server */
+#connect_server_add_label { padding: 10px; }
+/* ----------------------------------------------- */

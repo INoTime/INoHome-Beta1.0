@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" language="en"?>
+<interface>
+  <menu id="menubar">
+
+
+    <submenu>
+      <attribute name="label">Connect</attribute>
+      <section>
+        <item>
+          <attribute name="label">Connect server  F1</attribute>
+          <attribute name="action">app.connect_server</attribute>
+        </item>
+        <item>
+          <attribute name="label">Quit app</attribute>
+          <attribute name="action">app.quit_app</attribute>
+        </item>
+      </section>
+    </submenu>
+
+
+    <submenu>
+      <attribute name="label">Settings</attribute>
+      <section>
+        <item>
+          <attribute name="label">App settings</attribute>
+          <attribute name="action">app.app_settings</attribute>
+        </item>
+        <item>
+          <attribute name="label">Client Settings</attribute>
+          <attribute name="action">app.client_settings</attribute>
+        </item>
+        <item>
+          <attribute name="label">Garage Settings</attribute>
+          <attribute name="action">app.garage_settings</attribute>
+        </item>
+        <item>
+          <attribute name="label">Server Settings</attribute>
+          <attribute name="action">app.server_settings</attribute>
+        </item>
+      </section>
+    </submenu>
+
+
+    <submenu>
+      <attribute name="label">Help</attribute>
+      <section>
+        <item>
+          <attribute name="label">Help</attribute>
+          <attribute name="action">app.help</attribute>
+        </item>
+      </section>
+      <section>
+        <item>
+          <attribute name="label">Contact support...</attribute>
+          <attribute name="action">app.support</attribute>
+        </item>
+      </section>
+      <section>
+        <item>
+          <attribute name="label">About INoInvestigation</attribute>
+          <attribute name="action">app.about</attribute>
+        </item>
+      </section>
+    </submenu>
+</interface>

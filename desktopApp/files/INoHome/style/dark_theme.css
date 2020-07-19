@@ -1,0 +1,36 @@
+#my_window {
+    background-color: rgb(16, 16, 43);
+    color: white;
+}
+
+#login_get_acess_bt, #login_show_password_bt, 
+#change_user_name_save_bt,
+#change_password_show_bt, #change_password_save_bt,
+#user_name_change_bt, #user_password_show_bt, #user_password_change_bt,
+#check_ip_hostname_bt, #save_ip_hostname_bt,
+#server_info_hostname_ip_add_change_bt {
+    border: none;
+     background: rgb(74, 74, 92);
+     padding: 8px;
+}
+
+#login_get_acess_bt:hover, #login_show_password_bt:hover, 
+#change_user_name_save_bt:hover,
+#change_password_show_bt:hover, #change_password_save_bt:hover,
+#user_name_change_bt:hover, #user_password_show_bt:hover, #user_password_change_bt:hover, 
+#check_ip_hostname_bt:hover, #save_ip_hostname_bt:hover,
+#server_info_hostname_ip_add_change_bt:hover {
+    background: rgb(47, 52, 68);
+}
+
+#login_password_entry, 
+#change_user_name_entry,
+#chahnge_password_entry,
+#change_ip_add_entry, #change_hostname_entry {
+    border-radius: 4px;
+    border: none;
+    border-bottom: 2px solid rgb(134, 134, 134);
+    padding: 2px;
+    background: white;
+    color: black;
+}

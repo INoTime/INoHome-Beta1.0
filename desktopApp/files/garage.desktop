@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=INoHome
+Version=1.0
+Type=Application
+Encoding=UTF-8
+Terminal=false
+Icon=/usr/lib/INoHome/images/inoinvestigation.png
+Exec=/usr/lib/INoHome/Garage
+Comment=Garage Productivity
+Categories=GTK;GNOME;Utility;Garage;INoInvestigation;Home;INo;INoHome;
+Keywords=Garage;INoInvestigation;Home;INo;INoHome;
