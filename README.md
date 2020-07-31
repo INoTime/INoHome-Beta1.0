@@ -1,4 +1,7 @@
 # INoHome-Beta1.0
+
+At the moment only for UNIX-distributions!
+
 INoHome is literally a program to check your garage status. If a garage is opened and you can not see the garage (analog) because it is for you out of range you could check it with INoHome. You can add a max. of 255 garages to the server and also to the client.
 
 Have to know: At this time you have to build the app on your own. It is a Beta-Version download the Beta-Version from my Website: inoinvestigation.com/INoHome.php or download it on Github: github.com/INoTime/INoHome. Please read for more information the README.md file for every program also: INoHome Client, INoHome Server and INoHome Garage.
