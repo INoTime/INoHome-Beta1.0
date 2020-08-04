@@ -138,7 +138,7 @@ char *decrypt_data(const char *string_a, char *file_location) {
     fclose(crypt_file_o);
     // ------------------------------------------------------------------------
     
-    // out decyption
+    // out decryption
     for (int c = 0; c != strlen(string_a); c++) {
         for (int a = 0; a != 4; a++) {
             strcpy(buffer_crypted_a[a], "");
