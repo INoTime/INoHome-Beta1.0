@@ -419,7 +419,7 @@ static void search_for_ip_from_name() {
     }
 }
 
-// check if evwrything filled the load it into file
+// check if evwrything filled then load it into file
 static void check_info_add() {
     server_name = gtk_entry_get_text(GTK_ENTRY(server_name_entry));
     ip_add = gtk_entry_get_text(GTK_ENTRY(server_add_entry));
