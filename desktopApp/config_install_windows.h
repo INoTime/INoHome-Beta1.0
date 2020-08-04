@@ -403,7 +403,7 @@ static void window_theme_color() {
 
 // restart window for new theme
 static void reopen_gtk_window() {
-    destroy_window_theme_color();                                                                           // could delteted?
+    destroy_window_theme_color();                                                                           // could deleted?
     check_number--;
     window_theme_color();
 }
