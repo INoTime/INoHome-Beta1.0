@@ -155,7 +155,7 @@ void logged_in_to_server() {
     read(sockfd_server, get_uuid, sizeof(get_uuid));
     // resend uuid to server to check if evrything gone right
     send(sockfd_server, get_uuid, sizeof(get_uuid), 0);
-    // check answer from server if evrything gone right
+    // check answer from server if everything gone right
     read(sockfd_server, check_uuid_a, sizeof(check_uuid_a));
     if (!strcmp(check_uuid_a, "011") != 0) {
         // write new uuid to file 
