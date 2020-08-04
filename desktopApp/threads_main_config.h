@@ -136,7 +136,7 @@ void search_ip_with_hostname() {
 }
 // ------------------------------------------------------------------------
 
-// get super user acess in installtion
+// get super user acess in installation
 static gboolean worker_finish_get_acess_thread(gpointer data) {
     WorkerData *wd = data;
     if (wd == NULL) {
