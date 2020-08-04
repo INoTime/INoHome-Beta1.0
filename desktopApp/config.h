@@ -48,11 +48,11 @@ void remove_garage_choose() {
             const char con_final_remove_garage_name = *con_remove_garage_name;
             // check where does it found
             if (strchr(con_save_name_ip_garage_a, con_final_remove_garage_name)) {
-                // reset evrything
+                // reset everything
                 strcpy(save_name_ip_garage_a[x], "");
                 strcpy(name_ip_garage, "");
 
-                // set evrything to the front of the 2D char
+                // set everything to the front of the 2D char
                 for (int y = 0; y != 255; y++) {
                     if (!strcmp(save_name_ip_garage_a[y], "") != 0) {
                         strcpy(save_name_ip_garage_a[y], save_name_ip_garage_a[y+1]);
@@ -61,7 +61,7 @@ void remove_garage_choose() {
                     } 
                 }
 
-                // write evrything to normal output
+                // write everything to normal output
                 for (int y = 0; y != 255; y++) {
                     if (!strcmp(save_name_ip_garage_a[y], "") != 0) {
                         break;
